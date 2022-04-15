@@ -10,8 +10,81 @@ h2 {
    font-family: 'Sarala', sans-serif; 
    color: white;
    text-align:left;
+   font-size: 30px;
 }
 
 body {
     background-color: #2a1f2d;
+}
+
+.pinkBlock{
+    background-color: #ea526f;
+    padding:1%;
+
+}
+
+.purpleBlock{
+    padding:1%;
+}
+
+#blogStyle {
+    margin:auto;
+    padding:5px;
+    border:2px solid #ccc;
+    background-color:white;
+}
+
+.imageCenter{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Image Gallery*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
