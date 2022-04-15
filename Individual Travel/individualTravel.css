@@ -1,0 +1,16 @@
+/*Indivial Travel Page CSS*/
+
+h1 {
+    font-family: 'Lora', serif;
+    color: white;
+ 
+}
+
+h2 {
+   font-family: 'Sarala', sans-serif; 
+   color: white;
+}
+
+body {
+    background-color: #2a1f2d;
+}
