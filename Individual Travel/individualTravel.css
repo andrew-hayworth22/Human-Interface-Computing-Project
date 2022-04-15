@@ -3,12 +3,13 @@
 h1 {
     font-family: 'Lora', serif;
     color: white;
- 
+    text-align:center;
 }
 
 h2 {
    font-family: 'Sarala', sans-serif; 
    color: white;
+   text-align:left;
 }
 
 body {
