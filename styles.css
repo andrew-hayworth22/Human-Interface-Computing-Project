@@ -1,0 +1,32 @@
+* {
+    font-family: "Sarala", "sans-serif";
+    color: #fff;
+}
+
+body {
+    background-color: #2a1f2d;
+}
+
+#title {
+    text-align: center;
+    font-size: 25px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 50%;
+}
+
+#nav > p {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(210, 210, 210);
+    transition: color 100ms ease-out;
+}
+
+#nav > p:hover {
+    color: #fff;
+}
