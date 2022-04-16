@@ -19,14 +19,15 @@ body {
     max-width: 50%;
 }
 
-#nav > p {
+#nav > a {
     cursor: pointer;
+    text-decoration: none;
     font-size: 15px;
     font-weight: 400;
     color: rgb(210, 210, 210);
     transition: color 100ms ease-out;
 }
 
-#nav > p:hover {
+#nav > a:hover {
     color: #fff;
 }
