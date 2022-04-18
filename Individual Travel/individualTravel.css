@@ -18,7 +18,6 @@ body {
 }
 
 .pinkBlock{
-    background-color: #ea526f;
     padding:1%;
 
 }
@@ -32,6 +31,7 @@ body {
     padding:5px;
     border:2px solid #ccc;
     background-color:white;
+    color:black !important;
 }
 
 .imageCenter{
@@ -43,7 +43,7 @@ body {
 
 /*Image Gallery*/
 div.gallery {
-  border: 1px solid #ccc;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .75);
 }
 
 div.gallery:hover {
