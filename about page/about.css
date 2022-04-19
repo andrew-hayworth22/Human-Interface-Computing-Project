@@ -1,0 +1,74 @@
+.centered {
+  text-align: center;
+}
+
+.main-image {
+    width: 45%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .75);
+	text-align: center;
+}
+
+.main-text {
+	margin-left: 30%;
+	margin-right: 30%;
+	
+}
+.portrait-block {
+ padding: 0 25% 0 25%; 
+	
+}
+.portrait-image {
+  width: 30%;
+  border-radius: 50%;
+
+}
+
+.pinktext {
+	color: #EA526F;
+}
+
+
+.bio-text {
+width: 80%
+}
+
+
+.column-left-text{
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 50%;
+
+}
+
+
+.column-left-image{
+float: left;
+}
+
+.column-right-text{
+float:clear;
+}
+
+.pic-tags {
+    display: flex;
+    column-gap: 25px;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.pic-tags::-webkit-scrollbar {
+    display: none;
+}
+
+.pic-tag {
+    background-color: #EA526F;
+    padding: 5px 25px;
+    border-radius: 1000px;
+}
+
+
+#related-pics > img {
+    width: 47.5%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .75);
+}
