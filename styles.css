@@ -12,7 +12,7 @@ html, body {
     position: sticky;
     top: 0;
     background-color: rgba(42, 31, 45, 0.95);
-    padding: 10px 0;
+    padding: 10px 25px;
 }
 
 body {
@@ -29,6 +29,11 @@ body {
     justify-content: space-between;
     margin: auto;
     max-width: 50%;
+    overflow-x: scroll
+}
+
+#nav::-webkit-scrollbar {
+    display: none;
 }
 
 #nav > a {
@@ -42,4 +47,20 @@ body {
 
 #nav > a:hover {
     color: #fff;
+}
+
+/* mobile phones
+https://css-tricks.com/a-complete-guide-to-css-media-queries/
+https://www.lambdatest.com/blog/how-to-use-css-breakpoints-for-responsive-design/#HowToSet */
+@media screen and (max-width: 480px) {
+    #nav {
+        max-width: 100%;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 480px) {
+    #nav {
+        max-width: 50%;
+    }
 }
