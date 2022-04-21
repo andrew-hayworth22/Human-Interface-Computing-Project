@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,55 @@
     <link rel="stylesheet" href="../styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Sarala&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- header stuff -->
     <div id="header">
         <div id="title">Aperture Adventures</div>
         <div id="nav">
             <a href="../home page/home.html">Home</a>
-            <a href="../country page/country.html">Country</a>
+            <a href="../country page/country.html">Countries</a>
             <a href="../about page/about.html">About</a>
         </div>
     </div>
     <!-- page specific content -->
     <div id="content">
         <h1 id="country-head">Country Select</h4>
-        
-        
+
+        <div id="map">
+            <img id="map-image" width="1242px" height="504px" src="../pics/country-picker.jpg">
+        </div>
+
+        <div id="country-dropdown">
+            <select name="countries" id="countries">
+                <optgroup label="Europe">
+                    <option value="France">France</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Italy">Italy</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="India">India</option>
+                    <option value="China">China</option>
+                    <option value="Japan">Japan</option>
+                </optgroup>
+                <optgroup label="Africa">
+                    <option value="Egypt">Egypt</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                </optgroup>
+                <optgroup label="South America">
+                    <option value="Columbia">Columbia</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Brazil">Brazil</option>
+                </optgroup>
+                <optgroup label="North America">
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Mexico">Mexico</option>
+                </optgroup>
+            </select>
+        </div>
     </div>
 </body>
+
 </html>
