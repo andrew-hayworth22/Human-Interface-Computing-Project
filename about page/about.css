@@ -14,11 +14,11 @@
 	
 }
 .portrait-block {
- padding: 0 25% 0 25%; 
+ padding: 0 15% 0 15%; 
 	
 }
 .portrait-image {
-  width: 30%;
+  width: 25%;
   border-radius: 50%;
 
 }
@@ -29,26 +29,40 @@
 
 
 .bio-text {
-width: 80%
+	width: 80%
 }
 
+.word-cloud {
+	width: 40%;
+}
 
 .column-left-text{
   float: left;
-  margin-left: 10%;
-  margin-top: 2%;
-  width: 50%;
+  margin-left: 24%;
+  margin-top: 3%;
+  width: 30%;
 
 }
 
+.email {
+	width: 5%;
+	border-radius: 50%;
+}
 
 .column-left-image{
 float: left;
 }
 
-.column-right-text{
-float:clear;
+
+
+.float-image{
+float: left;
+margin-right: 5%;
+margin-left: 18%;
+margin-top: -4%;
 }
+
+
 
 .pic-tags {
     display: flex;
@@ -56,6 +70,10 @@ float:clear;
     width: 100%;
     overflow-x: scroll;
 }
+
+
+
+
 
 .pic-tags::-webkit-scrollbar {
     display: none;
