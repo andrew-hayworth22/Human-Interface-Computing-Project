@@ -57,6 +57,7 @@ body {
 .pic-tag {
     cursor: pointer;
     transition: box-shadow 100ms ease-out;
+    font-size: 15px;
 }
 
 .pic-tag:hover {

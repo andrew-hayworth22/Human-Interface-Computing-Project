@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, p {
 #location-title {
     font-size: 15px;
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .pic-tags {
@@ -42,6 +43,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #related-photos {
     margin-top: 50px;
+    font-weight: 500;
 }
 
 #related-title {
