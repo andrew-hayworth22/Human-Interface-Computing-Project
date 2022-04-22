@@ -49,6 +49,20 @@ body {
     color: #fff;
 }
 
+.pic-tags {
+    overflow-y: visible;
+    padding: 5px 0;
+}
+
+.pic-tag {
+    cursor: pointer;
+    transition: box-shadow 100ms ease-out;
+}
+
+.pic-tag:hover {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.358);
+}
+
 /* mobile phones
 https://css-tricks.com/a-complete-guide-to-css-media-queries/
 https://www.lambdatest.com/blog/how-to-use-css-breakpoints-for-responsive-design/#HowToSet */

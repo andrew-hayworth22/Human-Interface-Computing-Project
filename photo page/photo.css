@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #location-title {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .pic-tags {
@@ -61,7 +61,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 #related-pics-gallery > img {
     width: 47.5%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 0px rgba(0, 0, 0, .75);
+    transition: box-shadow 100ms ease-out;
+    cursor: pointer;
+}
+
+#related-pics-gallery > img:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
 }
 
 /* mobile phones
