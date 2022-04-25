@@ -29,7 +29,9 @@ body {
     justify-content: space-between;
     margin: auto;
     max-width: 50%;
-    overflow-x: scroll
+    overflow-x: scroll;
+    /* https://stackoverflow.com/a/53787170/17712310 */
+    scrollbar-width: none;
 }
 
 #nav::-webkit-scrollbar {
