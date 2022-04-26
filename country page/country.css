@@ -13,6 +13,7 @@
 }
 
 #map-image {
+    cursor: pointer;
     width: 100%;
     height: auto;
 }
@@ -24,6 +25,7 @@
 }
 
 #countries {
+    cursor: pointer;
     border: 0px;
     background-color: #fff;
     color: rgba(42, 31, 45, 0.95);
