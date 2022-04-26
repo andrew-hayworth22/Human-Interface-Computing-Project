@@ -16,30 +16,6 @@
   box-sizing: border-box;
 }
 
-.home-page {
-  align-items: flex-start;
-  background-color: #1a1423;
-  display: flex;
-  height: 5493px;
-  min-width: 1920px;
-}
-
-.hidden,
-.hidden * {
-  pointer-events: none;
-  visibility: hidden;
-}
-
-.overlap-group {
-  align-items: center;
-  background-color: #1a1f23;
-  display: flex;
-  flex-direction: column;
-  min-height: 5493px;
-  padding: 69px 0;
-  width: 1920px;
-}
-
 .montserrat-normal-white-64px {
   color: var(--white);
   font-family: var(--font-family-montserrat);
@@ -72,22 +48,6 @@
   width: 610px;
 }
 
-.group-4 {
-  align-items: flex-start;
-  display: flex;
-  height: 49px;
-  margin-left: 9px;
-  margin-top: 63px;
-  min-width: 961px;
-}
-
-.travels {
-  letter-spacing: 0;
-  margin-left: 110px;
-  min-height: 49px;
-  min-width: 213px;
-}
-
 .montserrat-light-mandy-40px {
   color: var(--mandy);
   font-family: var(--font-family-montserrat);
@@ -100,26 +60,6 @@
   letter-spacing: 0;
   min-height: 49px;
   min-width: 124px;
-}
-
-.about {
-  letter-spacing: 0;
-  margin-left: 138px;
-  min-height: 49px;
-  min-width: 123px;
-}
-
-.search {
-  letter-spacing: 0;
-  margin-left: 110px;
-  min-height: 49px;
-}
-
-.aperture-adventures {
-  letter-spacing: 0;
-  margin-left: 1px;
-  min-height: 78px;
-  min-width: 641px;
 }
 
 .flex-row {
@@ -146,12 +86,6 @@
   margin-top: 100px;
   object-fit: cover;
   width: 624px;
-}
-
-.flowers-g4f77e7cfc_1920-1 {
-  height: 446px;
-  object-fit: cover;
-  width: 654px;
 }
 
 .kilkenny-castle-1 {
@@ -185,79 +119,10 @@
   width: 624px;
 }
 
-.line-1 {
-  height: 1px;
-  margin-left: 1px;
-  margin-top: 60px;
-  width: 1649px;
-}
-
-.overlap-group2 {
-  align-items: flex-end;
-  background-color: var(--mandy);
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  min-height: 1285px;
-  padding: 42px 135px;
-  width: 1920px;
-}
-
-.picture-scroll::-webkit-scrollbar {
-  display: none;
-  width: 0;
-}
-
-.picture-scroll {
-  align-items: center;
-  display: flex;
-  margin-top: 151px;
-  overflow: hidden;
-  overflow-x: scroll;
-  width: 1460px;
-}
-
-.eiffel-1 {
-  height: 847px;
-  margin-left: 765px;
-  object-fit: cover;
-  width: 40px;
-}
-
-.taj-1 {
-  height: 1px;
-  margin-left: 1419px;
-  object-fit: cover;
-  width: 1px;
-}
-
-.brandenburg_-gate-1 {
+.brandenburg_gate {
   align-self: flex-end;
   height: 847px;
   margin-bottom: -10.5px;
   object-fit: cover;
   width: 1270px;
-}
-
-.liberty-1 {
-  height: 1px;
-  margin-left: 1400px;
-  object-fit: cover;
-  width: 1px;
-}
-
-.kremlin-1 {
-  height: 1px;
-  margin-left: 1419px;
-  margin-top: 20px;
-  object-fit: cover;
-  width: 1px;
-}
-
-.place-1 {
-  align-self: center;
-  letter-spacing: 0;
-  margin-left: 1px;
-  min-height: 122px;
-  min-width: 551px;
 }
