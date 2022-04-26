@@ -1,31 +1,4 @@
 /*Indivial Travel Page CSS*/
-
-h1 {
-    font-family: 'Lora', serif;
-    color: white;
-    text-align:center;
-}
-
-h2 {
-   font-family: 'Sarala', sans-serif; 
-   color: white;
-   text-align:left;
-   font-size: 30px;
-}
-
-body {
-    background-color: #2a1f2d;
-}
-
-.pinkBlock{
-    padding:1%;
-
-}
-
-.purpleBlock{
-    padding:1%;
-}
-
 #blogStyle {
     margin:auto;
     padding:5px;
