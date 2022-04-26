@@ -81,3 +81,7 @@ https://www.lambdatest.com/blog/how-to-use-css-breakpoints-for-responsive-design
         max-width: 50%;
     }
 }
+
+hr {
+	margin: 20px;
+}
