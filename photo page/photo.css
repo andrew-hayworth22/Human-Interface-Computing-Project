@@ -2,6 +2,11 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+/* from country page */
+hr {
+    margin: 20px;
+}
+
 #pic-title {
     font-size: 18px;
     font-weight: 600;
@@ -33,6 +38,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .pic-tags::-webkit-scrollbar {
     display: none;
+    /* https://stackoverflow.com/a/53787170/17712310 */
+    scrollbar-width: none;
 }
 
 .pic-tag {
